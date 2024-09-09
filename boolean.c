@@ -9,8 +9,8 @@ int main(){
     // 1 = true
     // 0 = false
 
-    printf("Value 1: %d, ", value1);
-    printf("Value 2: %d\n", value2);
+    printf("%d, ", value1); // should return 1 cuz it's true
+    printf("%d\n", value2); // should return 0 cuz it's false
 
     return 0;
 }
